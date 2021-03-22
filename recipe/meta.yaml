@@ -1,6 +1,6 @@
 {% set name = "intake" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "0c284abeb74927a7366dcab6cefc010c4d050365b8af61c37326a2473a490a4e" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "b0cab1d185a703acb38eecb9cff3edd5cc7004fe18a36d5e42a8f7fffc9cca1c" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ requirements:
     - dask >=1.0
     # dask[bag]
     - cloudpickle >=0.2.2
-    - fsspec >=0.6.0
+    - fsspec >=0.7.4
     - toolz >=0.8.2
     - partd >=0.3.10
 
@@ -49,7 +49,6 @@ test:
     - intake.cli.client
     - intake.cli.server
     - intake.container
-    - intake.gui
     - intake.source
   commands:
     - pip check
