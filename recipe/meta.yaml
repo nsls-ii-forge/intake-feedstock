@@ -1,6 +1,6 @@
 {% set name = "intake" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "b0cab1d185a703acb38eecb9cff3edd5cc7004fe18a36d5e42a8f7fffc9cca1c" %}
+{% set version = "0.6.4" %}
+{% set sha256 = "468d8083c873d3942be4efc0af6eb42077f091942182bd5cf9209e9d2e7636a7" %}
 
 package:
   name: {{ name|lower }}
